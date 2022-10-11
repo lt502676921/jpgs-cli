@@ -1,0 +1,41 @@
+{
+  "name": "@jpgs-cli-dev/core",
+  "version": "0.0.12",
+  "description": "jpgs-cli-dev core",
+  "author": "oreo <2742054698@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "jpgs-cli-dev": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@jpgs-cli-dev/exec": "file:../exec",
+    "@jpgs-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@jpgs-cli-dev/init": "file:../../commands/init",
+    "@jpgs-cli-dev/log": "^0.0.12",
+    "colors": "^1.4.0",
+    "commander": "^9.0.0",
+    "dotenv": "^16.0.0",
+    "import-local": "^3.1.0",
+    "npmlog": "^6.0.1",
+    "path-exists": "4",
+    "root-check": "1",
+    "semver": "^7.3.5",
+    "user-home": "2"
+  },
+  "gitHead": "df1ef37b85dc9329eb5158cb9fedeeb751e4baad",
+  "publishConfig": {
+    "access": "public"
+  }
+}

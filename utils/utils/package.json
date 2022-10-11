@@ -1,0 +1,26 @@
+{
+  "name": "@jpgs-cli-dev/utils",
+  "version": "0.0.12",
+  "description": "jpgs-cli-dev utils",
+  "author": "oreo <2742054698@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "df1ef37b85dc9329eb5158cb9fedeeb751e4baad",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "cli-spinner": "^0.2.10"
+  }
+}

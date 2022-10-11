@@ -1,0 +1,28 @@
+{
+  "name": "@jpgs-cli-dev/cloudbuild",
+  "version": "0.0.12",
+  "description": "> TODO: description",
+  "author": "扭不开奥利奥 <2742054698@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/i-cant-twist-oreo/jpgs-cli-dev.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@jpgs-cli-dev/log": "file:../../utils/log",
+    "lodash": "^4.17.21",
+    "socket.io-client": "^2.4.0"
+  }
+}
